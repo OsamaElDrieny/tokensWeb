@@ -1,0 +1,81 @@
+@import '../build/scss/variables';
+
+body {
+  background-color: $background-color;
+  margin: 0px;
+}
+
+.left-content {
+  padding: $spacing-lg;
+}
+
+.logo {
+  padding-bottom: $spacing-lg;
+}
+
+h1 {
+  font-family: $primary-font;
+  color: $text-heading-color;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-h2;
+  line-height: $line-height-h2;
+  padding-bottom: $spacing-md;
+}
+
+.body-text {
+  color: $text-body;
+  font-family: $primary-font;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  padding-bottom: $spacing-md;
+
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+
+#email {
+  border-radius: 0px;
+  width: $input-input-width;
+  padding-top: $input-spacing-y;
+  padding-bottom: $input-spacing-y;
+  padding-right: $input-spacing-x;
+  padding-left: $input-spacing-x;
+  background-color: $input-background-color;
+  border: $input-border-default;
+  border-top-left-radius: $input-border-radius-md;
+  border-top-right-radius: $input-border-radius-md;
+}
+
+#password {
+  border-radius: 0px;
+  width: $input-input-width;
+  padding-top: $input-spacing-y;
+  padding-bottom: $input-spacing-y;
+  padding-right: $input-spacing-x;
+  padding-left: $input-spacing-x;
+  background-color: $input-background-color;
+  border: $input-border-default;
+  border-bottom-left-radius: $input-border-radius-md;
+  border-bottom-right-radius: $input-border-radius-md;
+  margin-top: -1px;
+}
+
+
+.btn-primary {
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-md;
+  padding-right: $button-button-spacing-x;
+  padding-left: $button-button-spacing-x;
+  background-color: $button-disable-background-color !important;
+  border-radius: $button-border-radius-md;
+  border: none;
+  color: $button-disable-text-color;
+  font-family: $primary-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-button;
+  line-height: $line-height-button;
+}
