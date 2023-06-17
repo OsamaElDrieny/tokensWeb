@@ -13,6 +13,10 @@ body {
   padding-bottom: $spacing-lg;
 }
 
+.bg-image {
+  height: 100vh;
+}
+
 h1 {
   font-family: $primary-font;
   color: $text-heading-color;
